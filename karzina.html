@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Корзина</title>
+  <link rel="stylesheet" href="style1.css"/>
+</head>
+<body>
+
+  <header>
+    <div>
+      <a href="index.html"><img src="img/Group 1.png" alt="logo" style="width: 300px; margin: 20px 0 0 20px;"></a>
+    </div>
+  </header>
+
+  <section class="div1">
+    <h2>Корзина</h2>
+    <div class="order-summary" id="order-summary" style="display: none;">
+      <h3>Ваш заказ:</h3>
+      <ul id="cart-items"></ul>
+      <p class="total">Сумма заказа: <span id="total-price">0</span> ₽</p>
+    </div>
+    <div id="empty-cart">
+      <h2>Корзина пустая 😕</h2>
+      <p>Вероятней всего, вы не заказывали ещё пиццу. <br>Для того, чтобы заказать пиццу, перейди на главную страницу.</p>
+      <img src="img/Layer 2.png" alt="empty" />
+    </div>
+  </section>
+
+  <script src="script1.js"></script>
+</body>
+</html>
